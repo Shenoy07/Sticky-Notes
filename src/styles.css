@@ -130,3 +130,46 @@ i {
 .SubmitButton:hover {
   transform: scale(1.1);
 }
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
+.fa {
+  color: #e90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+.FooterIcons {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 5px;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+.fab {
+  margin: 10px;
+}
+.FooterSpan {
+  font-size: 0.6rem;
+}
+a {
+  color: black;
+}

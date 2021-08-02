@@ -90,7 +90,26 @@ export default function App() {
           })}
         </ul>
       </div>
-      <div></div>
+      <div className="Footer">
+        <span class="FooterSpan">
+          Made with <i class="fa fa-heart pulse" aria-hidden="true"></i> by
+          Nikhil Shenoy
+        </span>
+        <div class="FooterIcons">
+          <a href="https://twitter.com/NikhilShenoy10">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/nikhil__shenoy/">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Shenoy07">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nikhil-shenoy-7aa547143/">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
